@@ -1,0 +1,22 @@
+{
+    "name": "stephweb/mvc",
+    "description": "PHP MVC example",
+    "keywords": ["php","mvc","design","pattern"],
+    "authors": [
+        {
+            "name": "stephweb",
+            "email": "stephweb@live.fr",
+            "homepage": "https://www.devandweb.fr",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "core/Support/helpers.php"
+        ],
+    	"psr-4" : {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
