@@ -13,8 +13,8 @@ class HomeController extends Controller
     public function show()
     {
         return $this->view('specific-page/home', [
-        	'baliseTitle' => 'Homepage title',
-        	'metaDescription' => 'Homepage desciption',
+            'baliseTitle' => 'Homepage title',
+            'metaDescription' => 'Homepage desciption',
         ]);  
     }
 

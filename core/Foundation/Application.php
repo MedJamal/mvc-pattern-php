@@ -9,19 +9,19 @@ use Core\Routing\Router;
  */
 class Application
 {
-	/**
-	 * @var Router
-	 */
-	private $router;
+    /**
+     * @var Router
+     */
+    private $router;
 
 
-	/**
-	 *  Applicationconstructor.
-	 */
-	public function __construct(Router $router)
-	{
-		$this->router = $router;
-	}
+    /**
+     *  Applicationconstructor.
+     */
+    public function __construct(Router $router)
+    {
+        $this->router = $router;
+    }
 
     /**
      * Cahrger la liste des routes et exécuter le Routing
