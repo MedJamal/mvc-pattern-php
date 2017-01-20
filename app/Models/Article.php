@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
-use Core\Model\BaseModel;
-
-class Article extends BaseModel
+/**
+ * Model des articles
+ */
+class Article extends Model
 {
 
 }
