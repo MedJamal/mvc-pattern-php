@@ -5,7 +5,7 @@ namespace App\Controllers;
 use Core\Controller\BaseController;
 
 /**
- * Gestion des articles
+ * Controlelr parent de l'application
  */
 class Controller extends BaseController
 {
