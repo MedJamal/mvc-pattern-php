@@ -17,5 +17,4 @@ class ArticleController extends Controller
             'metaDescription' => 'Article listing desciption',
         ]);  
     }
-
 }

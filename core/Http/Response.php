@@ -99,7 +99,7 @@ class Response
      * @param string $content
      * @param string|null $type
      */
-    public static function header(string $content, string $type=null)
+    public static function header(string $content, string $type = null)
     {
         if ($type) {
             header($content.': '.$type.'; charset=UTF-8');
@@ -113,7 +113,7 @@ class Response
      * @param string $url - url vers où regiriger visiteur
      * @param null|int $httpResponseCodeParam - Code de la réponse HTTP
      */
-    public static function redirect(string $url, $httpResponseCodeParam=null)
+    public static function redirect(string $url, $httpResponseCodeParam = null)
     {
         if ($httpResponseCodeParam) {
             if (array_key_exists($httpResponseCodeParam, self::STATUS_CODE)) {
@@ -131,5 +131,4 @@ class Response
         
         exit();
     }
-
 }

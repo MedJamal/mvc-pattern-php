@@ -8,7 +8,7 @@ use DawPhpOrm\Database\BaseModel;
 /**
  * Model parent
  */
-class Model extends BaseModel
+abstract class Model extends BaseModel
 {
 
 }

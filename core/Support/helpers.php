@@ -5,7 +5,7 @@
  *
  * @param string|null $file
  */
-function public_path(string $file=null)
+function public_path(string $file = null)
 {
     if ($file) {
         return dirname(dirname(dirname(__FILE__))).'/www'.'/'.$file;
@@ -19,7 +19,7 @@ function public_path(string $file=null)
  *
  * @param string|null $file
  */
-function base_path(string $file=null)
+function base_path(string $file = null)
 {
     if ($file) {
         return dirname(dirname(dirname(__FILE__))).'/'.$file;

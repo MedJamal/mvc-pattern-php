@@ -50,5 +50,4 @@ class Input
     {
         return (isset($_GET[$name]) && $_GET[$name] != '') ? $_GET[$name] : '';
     }
-
 }

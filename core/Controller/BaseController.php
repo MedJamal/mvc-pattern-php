@@ -16,7 +16,6 @@ abstract class BaseController
      */
     private $layout;
 
-
     /**
      * BaseController constructor.
      */
@@ -41,7 +40,7 @@ abstract class BaseController
      * @param string $view - Fichier View à charger
      * @param array $data - Pour passer d'éventuels données à la vue
      */
-    final protected function view(string $view, array $data=[])
+    final protected function view(string $view, array $data = [])
     {       
         if ($data) extract($data);
 
@@ -60,9 +59,8 @@ abstract class BaseController
      * @param string $content
      * @param string|null $type
      */
-    final protected function header(string $content, string $type=null)
+    final protected function header(string $content, string $type = null)
     {
         Response::header($content, $type);
     }
-
 }

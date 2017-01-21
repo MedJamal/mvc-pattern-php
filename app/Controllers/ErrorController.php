@@ -19,5 +19,4 @@ class ErrorController extends Controller
             'metaDescription' => 'Error 404 desciption',
         ]);  
     }
-
 }

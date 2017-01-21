@@ -14,7 +14,6 @@ class Application
      */
     private $router;
 
-
     /**
      *  Applicationconstructor.
      */
@@ -30,5 +29,4 @@ class Application
     {
         $this->router->run();
     }
-
 }

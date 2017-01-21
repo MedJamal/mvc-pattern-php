@@ -31,7 +31,6 @@ class Router
      */
     private $routes = [];
 
-
 	/**
 	 *  Routerconstructor.
 	 */
@@ -131,5 +130,4 @@ class Router
 
         return $error->show404();
     }
-
 }
