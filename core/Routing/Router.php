@@ -99,6 +99,7 @@ class Router implements RouterInterface
      * Executer l'action
      *
      * @param string $action
+     * @throws ExceptionHandler
      * @return mixed
      */
     private function executeAction(string $action)

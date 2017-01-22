@@ -2,6 +2,8 @@
 
 namespace Core\Http;
 
+use Core\Exception\ExceptionHandler;
+
 /**
  * Response
  */
@@ -110,6 +112,7 @@ class Response
     
     /**
      * Rediriger
+     *
      * @param string $url - url vers où regiriger visiteur
      * @param null|int $httpResponseCodeParam - Code de la réponse HTTP
      */
@@ -121,7 +124,7 @@ class Response
 
                 header('Location: '.$url, true, $httpResponseCode);
             } else {
-                getException('Status code "'.$httpResponseCodeParam.'" not good.');
+                new ExceptionHandler('Status code "'.$httpResponseCodeParam.'" not good.');
                 
                 header('Location: '.$url);
             }

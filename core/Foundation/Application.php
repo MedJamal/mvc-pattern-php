@@ -10,12 +10,14 @@ use Core\Contracts\Routing\RouterInterface;
 class Application
 {
     /**
-     * @var Router
+     * @var RouterInterface
      */
     private $router;
 
     /**
      *  Applicationconstructor.
+     *
+     * @param RouterInterface $router
      */
     public function __construct(RouterInterface $router)
     {

@@ -4,6 +4,7 @@
  * Path du dossier racine public
  *
  * @param string|null $file
+ * @return mixed
  */
 function public_path(string $file = null)
 {
@@ -18,6 +19,7 @@ function public_path(string $file = null)
  * Path du dossier racine qui contient toute l'application
  *
  * @param string|null $file
+ * @return mixed
  */
 function base_path(string $file = null)
 {

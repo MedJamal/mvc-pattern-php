@@ -2,8 +2,7 @@
 
 namespace App\Models;
 
-// user library DawPhPOrm
-use DawPhpOrm\Database\BaseModel;
+use Core\Model\BaseModel;
 
 /**
  * Model parent
