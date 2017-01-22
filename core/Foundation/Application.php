@@ -2,7 +2,7 @@
 
 namespace Core\Foundation;
 
-use Core\Routing\Router;
+use Core\Contracts\Routing\RouterInterface;
 
 /**
  * Pour créer l'application
@@ -17,7 +17,7 @@ class Application
     /**
      *  Applicationconstructor.
      */
-    public function __construct(Router $router)
+    public function __construct(RouterInterface $router)
     {
         $this->router = $router;
     }

@@ -2,6 +2,7 @@
 
 namespace Core\Routing;
 
+use Core\Contracts\Routing\RouterInterface;
 use Core\Http\Input;
 use Core\Http\Request;
 use Core\Http\Response;
@@ -10,7 +11,7 @@ use Core\Exception\ExceptionHandler;
 /**
  * Gestion du Routing
  */
-class Router
+class Router implements RouterInterface
 {
     /**
      * @var Router
@@ -100,7 +101,7 @@ class Router
      * @param string $action
      * @return mixed
      */
-    public function executeAction(string $action)
+    private function executeAction(string $action)
     {
         list($controller, $method) = explode('@', $action);
 
@@ -124,7 +125,7 @@ class Router
      *
      * @return mixed
      */
-    public function executeError404()
+    private function executeError404()
     {
         $error = new \App\Controllers\ErrorController();
 
