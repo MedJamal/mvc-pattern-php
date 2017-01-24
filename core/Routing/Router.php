@@ -32,13 +32,13 @@ class Router implements RouterInterface
      */
     private $routes = [];
 
-	/**
-	 *  Routerconstructor.
-	 */
-	private function __construct()
-	{
-		$this->setUri();
-	}
+    /**
+     *  Routerconstructor.
+     */
+    private function __construct()
+    {
+        $this->setUri();
+    }
 
     /**
      * Singleton
@@ -47,11 +47,11 @@ class Router implements RouterInterface
      */
     public static function getInstance()
     {
-    	if (self::$instance === null) {
-    		self::$instance = new self();
-    	}
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
 
-    	return self::$instance;
+        return self::$instance;
     }
 
     /**
