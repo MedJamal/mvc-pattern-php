@@ -38,4 +38,4 @@ This package is example in PHP 7 of a Design Pattern MVC (Model-View-Controller)
 
 #### Article on this subject:
 
-https://www.devandweb.fr/blog/mvc-pattern
+https://www.devandweb.com/blog/mvc-pattern
