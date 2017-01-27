@@ -1,4 +1,4 @@
-# MVC pattern (Model-View-Controller) - Example with PHP 7
+# MVC pattern (Model-View-Controller) - Example - PHP 7
 
 
 
