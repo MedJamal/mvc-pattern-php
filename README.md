@@ -5,26 +5,6 @@
 
 
 
-## Documentation Française :
-
-Ce package est un exemple en PHP 7 du Design Pattern MVC (Modèle-Vue-Contrôleur)
-
-### Voici les étapes à suivre pour tester ce package :
-
-* Télécharger ce package
-* Avec votre terminal, aller sur le projet : cd your-path
-* Exécutez cette commande : php composer.phar update
-* Aller à l'URL : your-path/articles
-
-#### Article sur ce sujet :
-
-https://www.devandweb.fr/blog/mvc-pattern
-
-
-
-
-
-
 ## English Documentation:
 
 This package is example in PHP 7 of a Design Pattern MVC (Model-View-Controller)
@@ -39,3 +19,23 @@ This package is example in PHP 7 of a Design Pattern MVC (Model-View-Controller)
 #### Article on this subject:
 
 https://www.devandweb.com/blog/mvc-pattern
+
+
+
+
+
+
+## Documentation Française :
+
+Ce package est un exemple en PHP 7 du Design Pattern MVC (Modèle-Vue-Contrôleur)
+
+### Voici les étapes à suivre pour tester ce package :
+
+* Télécharger ce package
+* Avec votre terminal, aller sur le projet : cd your-path
+* Exécutez cette commande : php composer.phar update
+* Aller à l'URL : your-path/articles
+
+#### Article sur ce sujet :
+
+https://www.devandweb.fr/blog/mvc-pattern
