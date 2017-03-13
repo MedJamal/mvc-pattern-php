@@ -39,3 +39,13 @@ Ce package est un exemple en PHP 7 du Design Pattern MVC (Modèle-Vue-Contrôleu
 #### Article sur ce sujet :
 
 https://www.devandweb.fr/blog/mvc-pattern
+
+
+
+
+
+
+## Author
+
+Author of this example:
+[Développeur PHP Grenoble](https://www.devandweb.fr)
