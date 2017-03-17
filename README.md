@@ -48,4 +48,4 @@ https://www.devandweb.fr/blog/mvc-pattern
 ## Author
 
 Author of this example:
-[Développeur PHP Grenoble](https://www.devandweb.fr)
+[Développeur PHP de Grenoble](https://www.devandweb.fr)
