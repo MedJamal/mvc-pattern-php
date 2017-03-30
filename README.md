@@ -3,7 +3,7 @@
 
 
 
-## Author
+### Author
 
 Author of this example:
 [Développeur PHP de Grenoble](https://www.devandweb.fr)
