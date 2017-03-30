@@ -3,6 +3,15 @@
 
 
 
+## Author
+
+Author of this example:
+[Développeur PHP de Grenoble](https://www.devandweb.fr)
+[![Developpeur PHP de Grenoble](https://www.devandweb.fr/medias/website/favicon.ico)](https://www.devandweb.fr)
+
+
+
+
 
 
 ## English Documentation:
@@ -39,13 +48,3 @@ Ce package est un exemple en PHP 7 du Design Pattern MVC (Modèle-Vue-Contrôleu
 #### Article sur ce sujet :
 
 [MVC (Modèle-Vue-Contrôleur) - Design pattern](https://www.devandweb.fr/blog/mvc-pattern)
-
-
-
-
-
-
-## Author
-
-Author of this example:
-[Développeur PHP de Grenoble](https://www.devandweb.fr)
