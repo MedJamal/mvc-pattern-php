@@ -25,10 +25,6 @@ This package is example in PHP 7 of a Design Pattern MVC (Model-View-Controller)
 * Run this command: php composer.phar update
 * Go to the URL: your-path/articles
 
-#### Article on this subject:
-
-[MVC (Model-View-Controller) - Design pattern](https://www.devandweb.com/blog/mvc-pattern)
-
 
 
 
