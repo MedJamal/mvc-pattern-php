@@ -40,7 +40,3 @@ Ce package est un exemple en PHP 7 du Design Pattern MVC (Modèle-Vue-Contrôleu
 * Avec votre terminal, aller sur le projet : cd your-path
 * Exécutez cette commande : php composer.phar update
 * Aller à l'URL : your-path/articles
-
-#### Article sur ce sujet :
-
-[MVC (Modèle-Vue-Contrôleur) - Design pattern](https://www.devandweb.fr/blog/mvc-pattern)
