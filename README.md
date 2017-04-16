@@ -26,6 +26,13 @@ This package is example in PHP 7 of a Design Pattern MVC (Model-View-Controller)
 * Go to the URL: your-path/articles
 
 
+#### Other Design Patterns
+
+There are other pattern design examples here:
+
+[Design Patterns](https://github.com/stephweb/design-patterns-php)
+
+
 
 
 
@@ -40,3 +47,10 @@ Ce package est un exemple en PHP 7 du Design Pattern MVC (Modèle-Vue-Contrôleu
 * Avec votre terminal, aller sur le projet : cd your-path
 * Exécutez cette commande : php composer.phar update
 * Aller à l'URL : your-path/articles
+
+
+#### Autres Design Patterns
+
+Il y a d'autres exemples de design pattern ici :
+
+[Design Patterns](https://github.com/stephweb/design-patterns-php)

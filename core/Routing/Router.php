@@ -16,7 +16,7 @@ class Router implements RouterInterface
     /**
      * @var Router
      */
-    protected static $instance;
+    private static $instance;
 
     /**
      * URI
