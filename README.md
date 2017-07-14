@@ -6,8 +6,8 @@
 ### Author
 
 Author of this example:
-[Developpeur PHP](https://www.devandweb.fr)
-[![Developpeur PHP Freelance](https://www.devandweb.fr/medias/website/developpeur-web.png)](https://www.devandweb.fr)
+[Développeur web Lyon](https://www.devandweb.fr)
+[![Developpeur Freelance Lyon](https://www.devandweb.fr/medias/website/developpeur-web.png)](https://www.devandweb.fr)
 
 
 
