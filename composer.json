@@ -1,7 +1,7 @@
 {
     "name": "stephweb/mvc",
     "description": "PHP MVC example",
-    "keywords": ["php","mvc","design","pattern"],
+    "keywords": ["php","mvc","design","pattern","example"],
     "authors": [
         {
             "name": "stephweb",
